@@ -1,0 +1,79 @@
+body {
+  background-image: url(https://i.pinimg.com/564x/c5/1b/01/c51b0195ae4656f73dff84b963d9f638.jpg);
+  display: block;
+}
+h1 {
+  color: white;
+}
+h2 {
+  color: red;
+  display: inline;
+}
+p {
+  color: white;
+  font: size 60px;
+  display: inline;
+  font-size: 25px;
+}
+.a {
+  color: black;
+  display: inline;
+}
+.span {
+  color: blueviolet;
+}
+
+/* Basic reset for margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styling */
+header {
+  text-align: center;
+  padding: 10px;
+  background-color: #040202; /* Light background color for header */
+}
+
+.logo-header {
+  width: 100px; /* Adjust the size of the logo in the header */
+}
+
+/* Center the logo vertically and horizontally */
+.center-logo-container {
+  height: 20vh; /* Full viewport height */
+  display: flex block;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-center {
+  width: 150px; /* Adjust the size of the centered logo */
+}
+.af1 {
+  border-style: solid;
+  color: #040202;
+  size: 20px;
+  display: inline;
+}
+.Stingo {
+  border-radius: 70px;
+  display: inline;
+}
+footer {
+  border-style: dashed;
+  color: black;
+  display: inline;
+  size: 30px;
+  text-decoration: solid;
+  color: white;
+  display: inline;
+  background-color: white;
+}
+.email {
+  text-align: top right;
+}
+.option {
+  color: white;
+}
